@@ -10,7 +10,6 @@ public class webPageController {
     @GetMapping("/")
     public String startPage(Model model){
         model.addAttribute("title", "Главная страница сайта.");
-
         return "index";
     }
 }
