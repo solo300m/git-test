@@ -12,7 +12,7 @@ public class webPageController {
     @GetMapping("/")
     public String startPage(Model model){
         model.addAttribute("title", "Главная страница сайта.");
-        Logger.getLogger(webPageController.class.getSimpleName()).info("get controller "+webPageController.class.getSimpleName());
+        Logger.getLogger(webPageController.class.getSimpleName()).info("get controller "+webPageController.class.getSimpleName()+"grate controller");
         return "index";
     }
 }
